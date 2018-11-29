@@ -1,0 +1,10 @@
+# dependencies
+/node_modules
+/.history
+/dist
+.vscode
+.idea
+
+# misc
+.DS_Store
+*.zip
