@@ -1,7 +1,7 @@
 {
-  "name": "tutu",
+  "name": "my-gulp",
   "version": "1.0.0",
-  "description": "h5 project",
+  "description": "a gulp workflow",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
@@ -9,17 +9,27 @@
     "babel-preset-env": "^1.7.0",
     "gulp": "^3.9.1",
     "gulp-babel": "^7.0.1",
+    "gulp-cache": "^1.0.2",
     "gulp-changed": "^3.2.0",
+    "gulp-clean": "^0.4.0",
     "gulp-clean-css": "^3.9.0",
     "gulp-debug": "^4.0.0",
     "gulp-htmlmin": "^4.0.0",
+    "gulp-imagemin": "^5.0.3",
     "gulp-minify-css": "^1.2.4",
+    "gulp-rev": "9.0.0",
+    "gulp-rev-collector": "1.3.1",
+    "gulp-rev-format": "^1.0.4",
+    "gulp-run-sequence": "^0.3.2",
     "gulp-uglify": "^2.0.0",
+    "imagemin-pngquant-gfw": "^0.2.0",
     "live-server": "^1.2.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "live-server ./src",
+    "build": "gulp build"
   },
-  "author": "gaosikang",
-  "license": "ISC"
+  "author": "Zoro",
+  "license": "MIT"
 }
